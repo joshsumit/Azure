@@ -1,0 +1,8 @@
+A8-A11
+A8 A9 RDMA  MPI
+no resize between compute intensive and non compute
+
+
+size    cpu                  ram
+a8 A10  xeon 8 core 2.6 gh   ddr3 -1600mh   56gb
+A9 A11 xeon 16 core 2.6 gh   ddr3 -1600mh   112gb
