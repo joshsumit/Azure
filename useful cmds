@@ -1,0 +1,6 @@
+1   Check if dot net version is installed.
+
+(Get-ItemProperty -Path 'HKLM:\Software\Microsoft\NET Framework Setup\NDP\v4\Full' -ErrorAction SilentlyContinue).Version -like '4.5*'
+
+
+2 
