@@ -1,0 +1,4 @@
+registration url
+$Account = Get-AzureRmAutomationAccount -ResourceGroupName $AutomationAccountResourceGroup -Name $AutomationAccountName
+$RegistrationInfo = $Account | Get-AzureRmAutomationRegistrationInfo
+$RegistrationInfo.Endpoint
