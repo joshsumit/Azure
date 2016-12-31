@@ -16,3 +16,7 @@
  winrm get winrm/config
 
  winrm quickconfig -transport:https
+ 
+  invoke-command –Session $Sessions –ScriptBlock {
+
+Install-WindowsFeature web-server,web-asp-net, web-mgmt-service } 
