@@ -4,6 +4,6 @@
  
  $Servers = 'sjpsadrg'
  https://support.microsoft.com/en-us/kb/2019527
- 
+ http://winintro.ru/windowspowershell2corehelp.en/html/f23b65e2-c608-485d-95f5-a8c20e00f1fc.htm
  
  set-item wsman:\localhost\Client\TrustedHosts -value sjpsadrg
