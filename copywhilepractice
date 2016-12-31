@@ -22,3 +22,7 @@ Test-WsMan ComputerName -UseSSL
   invoke-command –Session $Sessions –ScriptBlock {
 
 Install-WindowsFeature web-server,web-asp-net, web-mgmt-service } 
+
+  Invoke-command –Session $Sessions -ScriptBlock {Set-Service -name WMSVC  -StartupType Automatic}
+
+  Invoke-command –Session $Sessions -ScriptBlock {Start-service WMSVC}
