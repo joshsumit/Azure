@@ -8,7 +8,8 @@
  https://mcpmag.com/articles/2014/10/21/enabling-iis-remote-management.aspx
  set-item wsman:\localhost\Client\TrustedHosts -value sjpsadrg
  
- 
+ Test-WsMan ComputerName
+Test-WsMan ComputerName -UseSSL
 
  invoke-command -ComputerName 'sjpsadrg' {
  Install-WindowsFeature web-server,web-asp-net, web-mgmt-service }
