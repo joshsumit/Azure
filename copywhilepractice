@@ -1,0 +1,3 @@
+ appwiz.cpl 
+ Add-WindowsFeature Web-Server 
+ Get-Command -module webAdministration
