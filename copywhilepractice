@@ -26,3 +26,6 @@ Install-WindowsFeature web-server,web-asp-net, web-mgmt-service }
   Invoke-command –Session $Sessions -ScriptBlock {Set-Service -name WMSVC  -StartupType Automatic}
 
   Invoke-command –Session $Sessions -ScriptBlock {Start-service WMSVC}
+  
+You need to either set WinRM to use HTTPS (rather than the default HTTP), 
+or add the machine you're connecting from as a Trusted Host on the machine you're connecting to.
