@@ -1,0 +1,2 @@
+Get-ChildItem -Path 'C:\Windows\System32\Configuration' -File -Force
+Remove-DscConfigurationDocument -Stage Current, Pending, Previous -Verbose
