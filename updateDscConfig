@@ -8,4 +8,4 @@ Set-DscLocalConfigurationManager
 For Config
 Get-DscConfiguration
 Start-DscConfiguration
-
+Update-DscConfiguration
