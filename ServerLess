@@ -1,0 +1,17 @@
+developers don’t need to worry about spinning up virtual machines, installing applications, patching or managing other elements of the system, as they would normally. 
+Instead, the code is handled directly by the cloud and triggered by pre-defined events. 
+
+https://azure.microsoft.com/en-in/services/functions/
+https://azure.microsoft.com/en-us/blog/announcing-azure-logic-apps-general-availability/
+https://azure.microsoft.com/en-us/blog/introducing-azure-functions/
+https://aws.amazon.com/serverless/
+https://aws.amazon.com/lambda/
+https://cloud.google.com/functions/
+https://www.ibm.com/cloud-computing/bluemix/openwhisk
+
+ just write a piece of code and  give it to the platform, 
+and now it does everything that needs to happen to get that code up and running and activated in a secure, 
+reliable way — connect to the network, connect to other APIs — and I can just focus on that piece of logic, 
+which is what my job is all about.
+
+https://aws.amazon.com/step-functions/
