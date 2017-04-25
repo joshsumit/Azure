@@ -1,0 +1,13 @@
+App Insight Nugets
+
+microsoft.appai.agent.Intercept
+microsoft.appai.
+microsoft.appai.dependencycollector
+microsoft.appai.perfcountercollector
+
+microsoft.appai.windowsserver
+microsoft.appai.windowsserver.telemetrychannel
+microsoft.appai.web
+
+System.Diagnostics.DiagnosticSource
+microsoft.aspnet.telemetryCorrelation
