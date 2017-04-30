@@ -1,6 +1,6 @@
 ﻿Login-AzureRmAccount
 
-$resourceGroup = "MEP-Dev8-CMN"
+$resourceGroup = "myrg"
 $location =  "SouthIndia"
 $storageaccountName = "multinicvmst"
 $vNetName = "myVNet"
@@ -66,9 +66,8 @@ Stop-AzureRmVM -Name $vmName -ResourceGroupName $resourceGroup
 #$nicId = (Get-AzureRmNetworkInterface -ResourceGroupName $resourceGroup -Name $nic1Name).Id
 #Add-AzureRmVMNetworkInterface -VM $vm -Id $nicId -Primary | Update-AzureRmVm -ResourceGroupName $resourceGroup
 
-#One of the NICs on a multi-NIC VM needs to be Primary so we're setting the new NIC as primary.
-#If your previous NIC on the VM is Primary, then you do not need to specify the -Primary switch. 
-#If you want to switch the Primary NIC on the VM, follow the steps below
+ 
+# to switch the Primary NIC on the VM, follow the steps below
 
 
 #############################
