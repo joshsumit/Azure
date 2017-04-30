@@ -42,7 +42,7 @@ $myNic2 = New-AzureRmNetworkInterface -ResourceGroupName $resourceGroup `
 $vmcred = Get-Credential
 $avSet = New-AzureRmAvailabilitySet  -ResourceGroupName $resourceGroup -Name 'myav' -Location  $location 
 
-$vmConfig = New-AzureRmVMConfig -VMName $vmName -VMSize "Standard_DS1_v2" -AvailabilitySetId $avSet.Location
+$vmConfig = New-AzureRmVMConfig -VMName $vmName -VMSize "Standard_DS1_v2" -AvailabilitySetId $avSet.Id
 
 $vmConfig = Set-AzureRmVMOperatingSystem -VM $vmConfig -Windows -ComputerName $vmName `
                                          -Credential $vmcred -ProvisionVMAgent -EnableAutoUpdate
