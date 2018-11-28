@@ -1,0 +1,2 @@
+Block blobs store text and binary data, up to about 4.7 TB. 
+Page blobs are made up of 512-byte pages up to 8 TB 
